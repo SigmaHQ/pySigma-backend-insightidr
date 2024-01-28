@@ -16,9 +16,10 @@ pysigma = "^0.11"
 
 [tool.poetry.dev-dependencies]
 black = "^24.1"
+coverage = "^7.4"
+defusedxml = "^0.7"
 pytest = "^8.0"
 pytest-cov = "^4.1"
-coverage = "^7.4"
 
 [build-system]
 requires = ["poetry-core>=1.8.1"]
