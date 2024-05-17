@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pysigma-backend-insightidr"
-version = "0.2.2"
+version = "0.2.3"
 description = "pySigma Rapid7 InsightIDR backend"
 readme = "README.md"
 authors = ["Micah Babinski <m.babinski.88@gmail.com>"]
