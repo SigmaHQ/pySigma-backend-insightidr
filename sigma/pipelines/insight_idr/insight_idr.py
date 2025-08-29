@@ -27,7 +27,7 @@ def logsource_azure_signin() -> LogsourceCondition:
 
 class AggregateRuleProcessingCondition(RuleProcessingCondition):
     """"""
-    def match(self, pipeline : "sigma.processing.pipeline.ProcessingPipeline", rule : SigmaRule) -> bool:
+    def match(self, rule : SigmaRule) -> bool:
         """Match condition on Sigma rule."""
         agg_function_strings = ["| count", "| min", "| max", "| avg", "| sum", "| near"]
         condition_string = " ".join([item.lower() for item in rule.detection.condition])
